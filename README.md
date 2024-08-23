@@ -7,7 +7,7 @@
    - **Name:** EMOTION
    - **Source:** [Hugging Face Datasets](https://huggingface.co/datasets/dair-ai/emotion)
    - **Associated Paper:** ["CARER: Contextualized Affect Representations for Emotion Recognition"](https://aclanthology.org/D18-1404/)
-   - 
+     
 3. **Data preprocessing**
    - **Data Cleaning:** Convert to lowercase; Remove punctuation; Remove extra spaces; Stop some words;
    - **Undersamper method:** Use an undersamper method to make the number of train samples of each emotion labels consistent, so that to prevent the model from being biased towards the majority class.
